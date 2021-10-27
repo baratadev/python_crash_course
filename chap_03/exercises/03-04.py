@@ -27,3 +27,17 @@ print(f"Hello {guests[3].title()}, free food this friday!!!")
 print(f"Hello {guests[4].title()}, free food this friday!!!")
 print(f"Hello {guests[5].title()}, free food this friday!!!")
 print(f"Hello {guests[6].title()}, free food this friday!!!")
+
+print("\nSorry, the table will not arrive on time.")
+
+guests.pop()
+guests.pop()
+guests.pop()
+guests.pop()
+guests.pop()
+
+print(f"\nHello {guests[0].title()}, free food this friday!!!")
+print(f"Hello {guests[1].title()}, free food this friday!!!")
+
+del guests[:]
+print(guests)
