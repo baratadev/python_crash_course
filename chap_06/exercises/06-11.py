@@ -18,4 +18,4 @@ cities = {
 
 for city, infos in cities.items():
     print(
-        f"{city.title()} is located in {infos['country'].title()}, has a population of {infos['population']} people and is {infos['fact']}.")
+        f"{city.title()} is located in {infos['country'].title()}, has a population of {infos['population']} people and is {infos['fact']}.\n")
